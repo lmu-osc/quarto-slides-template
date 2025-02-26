@@ -1,0 +1,76 @@
+---
+title: "My Presentation"
+format: 
+  pptx: {}
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    self-contained: true
+    embed-resources: true
+    code-fold: true
+    theme: cosmo
+    include-in-header:
+      text: |
+        <style>
+        .notes {
+          background-color: #ffffcc; /* Light yellow background */
+          padding: 15px;
+          border-radius: 5px;
+          border-left: 5px solid #ffeb3b; /* Deeper yellow border */
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        </style>
+  revealjs:
+    theme: simple
+    slide-number: true
+    show-slide-number: all
+    preview-links: auto
+    footer: "My Organization"
+    controls: true
+    progress: true
+---
+
+## First Slide {.center}
+
+This is my first slide content
+
+::: {.notes}
+These are speaker notes for the first slide.
+They will be visible in a separate window when presenting.
+They will also be visible in a separate section on the website when the presentation is published.
+:::
+
+## Second Slide {.smaller}
+
+- Bullet point 1
+- Bullet point 2
+- Bullet point 3
+
+::: {.notes}
+Here are detailed notes about bullet point 1.
+Additional context for bullet point 2.
+Important information related to bullet point 3.
+:::
+
+## Code Example
+
+```python
+def hello_world():
+    print("Hello, Quarto presentation!")
+```
+
+::: {.notes}
+This function is a simple example of Python code.
+Explain how this relates to your overall presentation.
+:::
+
+## Final Slide
+
+Thank you for your attention!
+
+::: {.notes}
+Summarize key points.
+Mention any resources or contact information.
+:::
